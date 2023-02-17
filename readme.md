@@ -40,8 +40,8 @@ Ugyan ez elmondható az MHz esetében is, ha 72MHz van beállítva, akkor 128MHz
 
 # Fejlesztésre várnak
 * A program nincs mindere felkészítve, amelyeket később, ha időm is engedi javítok, ilyen hibák lehetnek a következők:
-- nincs kezelve, ha nincs SD kártya behelyezve és léptni akarjuk a fájlokat
-- nincs kész a DAC STREAM rész, 0x93-as parancs kidolgozásának befejezése, ameddig ez a rész nincs kész, addig nem képes az 1.60-os VGM zenéket jól kezelni.
+- - nincs kezelve, ha nincs SD kártya behelyezve és léptni akarjuk a fájlokat
+- - nincs kész a DAC STREAM rész, 0x93-as parancs kidolgozásának befejezése, ameddig ez a rész nincs kész, addig nem képes az 1.60-os VGM zenéket jól kezelni.
 
 # Hiba javítások listálya
 - még nincs ilyen

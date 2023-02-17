@@ -1,0 +1,14 @@
+w25qxx.c:4:6:SPI_Transmit	4	static
+w25qxx.c:37:6:SPI_Receive	0	static
+w25qxx.c:56:6:SPI_Send	8	static
+w25qxx.c:62:15:SPI_Get	8	static
+w25qxx.c:68:6:waitForW25Qxx	16	static
+w25qxx.c:79:6:MemWrite	24	static
+w25qxx.c:99:14:memReadID	16	static
+w25qxx.c:118:15:MemReadFast	24	static
+w25qxx.c:138:6:FastmemReadW25Qxx	24	static
+w25qxx.c:153:15:MemRead	24	static
+w25qxx.c:169:6:MemErase	8	static
+w25qxx.c:180:6:MemBlockErase64Kb	16	static
+w25qxx.c:197:6:memWriteW25Qxx	24	static
+w25qxx.c:213:6:memReadW25Qxx	24	static
