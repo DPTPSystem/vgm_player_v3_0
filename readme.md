@@ -10,8 +10,9 @@
 
 # Mi is ez az eszköz?
 * Az eszköz képes a feltöltött SEGA VGM zene fájlokat fogadni USB-n vagy SD (FAT32) kártyáról, majd azt feltölteni a saját W25Q64-es Flash memóriájára
-majd onnan közvetlen feldolgozni és lejátszani azt. Az eszközre került egy erősítő áramkör, amely elégendő fülhallgatókhoz, vagy külön erősítőt meghajtására.
-Külön LCD kijelzésen keresztül láthatjuk az aktuális állapotot, illetve a LED-es visszajelzések visszajelzést adnak a VGM adatok feldolgozásával kapcsolatban.
+majd onnan közvetlen feldolgozni és lejátszani azt. Az eszköz redelkezik egy erősítő áramkörrel, amely elegendő fülhallgatókhoz, vagy külön erősítő meghajtására.
+Külön Oled kijelző gondoskodik az aktuális állapotot kiírásáról, illetve a YM2612 és PSG bináris és vezérlő bitek állapotát LED-es fényjelzések segítségével
+ olvashatjuk le.
 
 # Eszköz használata
 - A programban az 1 gombos kezeléssel a további funkciók érhetőek el:
@@ -22,3 +23,25 @@ Külön LCD kijelzésen keresztül láthatjuk az aktuális állapotot, illetve a
 - Minden esetben a kijelző első sorában az aktuális menüpont a megadott időintervallumban látható, KHz és MHz esetében az alapértelmezett vagy az előzőleg
 beállított érték lesz látható nem az aktuálisan beállítani kívánt érték. Értsd úgy, ha 44.1KHz van beállítva, akkor 48KHz-re vált vagy ennek az ellenkezője.
 Ugyan ez elmondható az MHz esetében is, ha 72MHz van beállítva, akkor 128MHz lesz és így fordítva, ha 128MHz, akkor 72MHz lesz.
+
+# Kompatibilitás
+* A program kezeli az 1.50, 1.51-es és az 1.60-os SEGA MD VGM zenéket (DAC STREAM még nem teljes) és kezeli a PSG vagy is a SEGA MS és SEGA GG zenéket is.
+
+# VGM fájlok feltöltése az eszközre
+* Töltsd le a vgm_sent_release_STM32_2023_02_17.zip fájlt, majd tömörítsd ki
+- a programmal azonos mappába másolj be pár VGM fájlt, amely a felsorólt konzolokra készült
+- ha nem a program könyvtárába másolod be a VGM fájlokat, akkor meg kell adni a teljes utvonalat
+
+	`vgm_sent COM? filename.vgm`
+	
+- a fentebb látható módon índítható a program, a vgm_sent maga az alkalmazás, nem kötelező a kiterjesztést megadni
+- COM? - a kérdőjel helyére a windows álltal az eszközhöz rendelt csatorna száma kerül, pl.: COM7
+- Az alkalmazás Win64 operációs rendszeren volt fejlesztve .NET 4.5-ös keretrendszerrel.
+
+# Fejlesztésre várnak
+* A program nincs mindere felkészítve, amelyeket később, ha időm is engedi javítok, ilyen hibák lehetnek a következők:
+- nincs kezelve, ha nincs SD kártya behelyezve és léptni akarjuk a fájlokat
+- nincs kész a DAC STREAM rész, 0x93-as parancs kidolgozásának befejezése, ameddig ez a rész nincs kész, addig nem képes az 1.60-os VGM zenéket jól kezelni.
+
+# Hiba javítások listálya
+- még nincs ilyen
