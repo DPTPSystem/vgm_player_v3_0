@@ -8,6 +8,8 @@
 
 ![alt text](http://neo-geo.hu/news/don_peter/new45/vgm_v300_3.jpg "VGM Player v3.0")
 
+[![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/WJZeTfQz4C4)
+
 # Mi is ez az eszköz?
 * Az eszköz képes a feltöltött SEGA VGM zene fájlokat fogadni USB-n vagy SD (FAT32) kártyáról, majd azt feltölteni a saját W25Q64-es Flash memóriájára
 majd onnan közvetlen feldolgozni és lejátszani azt. Az eszköz redelkezik egy erősítő áramkörrel, amely elegendő fülhallgatókhoz, vagy külön erősítő meghajtására.
