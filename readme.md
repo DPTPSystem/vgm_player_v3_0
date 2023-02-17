@@ -1,12 +1,12 @@
 # VGM Player v3.0
 * DPTP System - VGM Player v3.0 YM2612 + SN76489
-* [neo-geo.hu/VGM Player v3.0](http://neo-geo.hu/index.php?modul=news&news=44#nwe)
+* [neo-geo.hu/VGM Player v3.0](http://neo-geo.hu/index.php?modul=news&news=45#nwe)
 * STM32F103RF, W25Q64, SD, I2C Oled
 * SEGA GAME GEAR, SEGA MESTER SYSTEM and SEGA MEGA DRIVE
 * VGM v1.50, v1.51, v1.60
 * 44100Hz - 48000Hz megzsakításban kiszolgálva, 22.7uS-20.83uS
 
-![alt text](http://neo-geo.hu/news/don_peter/new44/vgm_v2_0.jpg "VGM Player v3.0")
+![alt text](http://neo-geo.hu/news/don_peter/new45/vgm_v300_3.jpg "VGM Player v3.0")
 
 # Mi is ez az eszköz?
 * Az eszköz képes a feltöltött SEGA VGM zene fájlokat fogadni USB-n vagy SD (FAT32) kártyáról, majd azt feltölteni a saját W25Q64-es Flash memóriájára

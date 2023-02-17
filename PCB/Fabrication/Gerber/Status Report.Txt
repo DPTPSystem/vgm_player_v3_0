@@ -1,0 +1,19 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [neoplay.PrjPcb]
+   Generated File[neoplay.GTL]
+   Generated File[neoplay.GBL]
+   Generated File[neoplay.GTO]
+   Generated File[neoplay.GTS]
+   Generated File[neoplay.GBS]
+   Generated File[neoplay.GBO]
+   Generated File[neoplay.GKO]
+   Generated File[neoplay.RUL]
+   Generated File[neoplay.EXTREP]
+   Generated File[neoplay.REP]
+
+
+Files Generated   : 10
+Documents Printed : 0
+
+Finished Output Generation At 18:05:34 On 2023. 02. 17.

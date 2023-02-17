@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [neoplay.PrjPcb]
+   Generated File[neoplay.TXT]
+   Generated File[neoplay-RectHoles.TXT]
+   Generated File[neoplay.LDP]
+   Generated File[neoplay.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 18:07:20 On 2023. 02. 17.
