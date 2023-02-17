@@ -8,12 +8,17 @@
 
 ![alt text](http://neo-geo.hu/news/don_peter/new44/vgm_v2_0.jpg "VGM Player v3.0")
 
-# Hardver használata
+# Mi is ez az eszköz?
+* Az eszköz képes a feltöltött SEGA VGM zene fájlokat fogadni USB-n vagy SD (FAT32) kártyáról, majd azt feltölteni a saját W25Q64-es Flash memóriájára
+majd onnan közvetlen feldolgozni és lejátszani azt. Az eszközre került egy erősítő áramkör, amely elégendő fülhallgatókhoz, vagy külön erősítőt meghajtására.
+Külön LCD kijelzésen keresztül láthatjuk az aktuális állapotot, illetve a LED-es visszajelzések visszajelzést adnak a VGM adatok feldolgozásával kapcsolatban.
+
+# Eszköz használata
 - A programban az 1 gombos kezeléssel a további funkciók érhetőek el:
-1. 1mp vagy az alatt tartott gombnyomásra: következő fájlra ugrás (SD kártya esetén, ha van)
-2. 1mp-nél nagyobb, de 3mp-nél kevesebb ideig tartott gombnyomásra: 44.1KHz és 48KHz-es váltás
-3. 3mp-nél nagyobb de 4mp-nél kevesebb ideig tartott gombnyomásra: 72MHz és 128MHz-es CPU frekvenica váltása
-4. 4mp-nél tovább tartott gombnyomás esetén: aktuális fájl feltöltése
+- - 1. 1mp vagy az alatt tartott gombnyomásra: következő fájlra ugrás (SD kártya esetén, ha van)
+- - 2. 1mp-nél nagyobb, de 3mp-nél kevesebb ideig tartott gombnyomásra: 44.1KHz és 48KHz-es váltás
+- - 3. 3mp-nél nagyobb de 4mp-nél kevesebb ideig tartott gombnyomásra: 72MHz és 128MHz-es CPU frekvenica váltása
+- - 4. 4mp-nél tovább tartott gombnyomás esetén: aktuális fájl feltöltése
 - Minden esetben a kijelző első sorában az aktuális menüpont a megadott időintervallumban látható, KHz és MHz esetében az alapértelmezett vagy az előzőleg
 beállított érték lesz látható nem az aktuálisan beállítani kívánt érték. Értsd úgy, ha 44.1KHz van beállítva, akkor 48KHz-re vált vagy ennek az ellenkezője.
 Ugyan ez elmondható az MHz esetében is, ha 72MHz van beállítva, akkor 128MHz lesz és így fordítva, ha 128MHz, akkor 72MHz lesz.
