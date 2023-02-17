@@ -1,8 +1,8 @@
-ym2612.c:4:6:SN76489_SendByte	8	static
+ym2612.c:4:6:SN76489_SendByte	16	static
 ym2612.c:21:6:SN76489_SendByteFast	16	static
-ym2612.c:45:6:PSG_Silence	16	static
-ym2612.c:65:6:YM2612_SendFast	20	static
-ym2612.c:116:6:YM2612_Send	24	static
-ym2612.c:142:23:WaveSample	24	static
-ym2612.c:319:23:WaveSampleIf	24	static
-ym2612.c:576:6:PCMJumpSave	24	static
+ym2612.c:46:6:PSG_Silence	16	static
+ym2612.c:66:6:YM2612_SendFast	24	static
+ym2612.c:119:6:YM2612_Send	24	static
+ym2612.c:145:23:WaveSample	24	static
+ym2612.c:322:23:WaveSampleIf	24	static
+ym2612.c:580:6:PCMJumpSave	24	static
