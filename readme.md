@@ -8,7 +8,7 @@
 
 ![VGM Player v3.0](http://neo-geo.hu/news/don_peter/new45/vgm_v300_3.jpg "VGM Player v3.0")
 
-![Listen to authentic music.](https://youtu.be/WJZeTfQz4C4 "Listen to authentic music")
+[Listen to authentic music.](https://youtu.be/WJZeTfQz4C4)
 
 # Mi is ez az eszköz?
 * Az eszköz képes a feltöltött SEGA VGM zene fájlokat fogadni USB-n vagy SD (FAT32) kártyáról, majd azt feltölteni a saját W25Q64-es Flash memóriájára
